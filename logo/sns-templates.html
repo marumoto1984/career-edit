@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>CAREER EDIT - SNS素材テンプレ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Frijole&family=IM+Fell+DW+Pica+SC&family=Rozha+One&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #eee; padding: 40px 20px; }
+.wrap { max-width: 1600px; margin: 0 auto; }
+.info { background: #fff; border-radius: 8px; padding: 24px; margin-bottom: 32px; font-size: 13px; line-height: 1.7; color: #333; }
+.info h2 { font-size: 16px; margin-bottom: 12px; }
+.info li { margin-left: 20px; margin-bottom: 4px; }
+.size-label { font-size: 11px; color: #666; margin-bottom: 8px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
+.size-meta { font-size: 10px; color: #999; margin-top: 4px; }
+.row { margin-bottom: 48px; }
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1px;
+  line-height: 1;
+  flex-wrap: nowrap;
+}
+.logo .gap { width: 0.4em; display: inline-block; }
+.logo .c { line-height: 1; display: inline-block; }
+.base { font-family: 'Cinzel Decorative', serif; font-weight: 900; }
+.bug-a { font-family: 'Frijole', cursive; font-size: 0.85em; }
+.bug-e-low { font-family: 'IM Fell DW Pica SC', serif; font-size: 0.75em; font-weight: 700; }
+.bug-e-block {
+  font-family: 'Rozha One', serif;
+  font-weight: 900;
+  -webkit-text-stroke: 2px currentColor;
+  color: transparent !important;
+}
+
+.canvas { margin: 0 auto; overflow: hidden; }
+
+.canvas.x-header {
+  width: 1500px; height: 500px;
+  background: #0a0a0a; color: #f5f5f0;
+  display: flex; align-items: center; justify-content: center;
+}
+.canvas.x-header .logo { font-size: 180px; color: #f5f5f0; }
+
+.canvas.ig-post {
+  width: 1080px; height: 1080px;
+  background: #0a0a0a; color: #f5f5f0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px;
+}
+.canvas.ig-post .logo { font-size: 130px; color: #f5f5f0; }
+.canvas.ig-post .tagline { font-family: 'Cinzel Decorative', serif; font-size: 24px; letter-spacing: 0.2em; color: #f5f5f0; }
+
+.canvas.avatar {
+  width: 400px; height: 400px;
+  background: #0a0a0a; color: #f5f5f0;
+  display: flex; align-items: center; justify-content: center;
+}
+.canvas.avatar .mark {
+  font-family: 'Cinzel Decorative', serif; font-weight: 900;
+  font-size: 180px; color: #f5f5f0; letter-spacing: -0.05em;
+  display: flex; align-items: baseline; gap: 0;
+}
+.canvas.avatar .mark .slash { font-size: 140px; color: #f5f5f0; margin: 0 -0.05em; transform: translateY(-0.05em); }
+.canvas.avatar .mark .e-block {
+  font-family: 'Rozha One', serif; font-weight: 900;
+  -webkit-text-stroke: 3px currentColor; color: transparent !important;
+}
+
+.canvas.avatar-light {
+  width: 400px; height: 400px;
+  background: #f5f5f0; color: #0a0a0a;
+  display: flex; align-items: center; justify-content: center;
+}
+.canvas.avatar-light .mark {
+  font-family: 'Cinzel Decorative', serif; font-weight: 900;
+  font-size: 180px; color: #0a0a0a; letter-spacing: -0.05em;
+  display: flex; align-items: baseline; gap: 0;
+}
+.canvas.avatar-light .mark .slash { font-size: 140px; color: #0a0a0a; margin: 0 -0.05em; transform: translateY(-0.05em); }
+.canvas.avatar-light .mark .e-block {
+  font-family: 'Rozha One', serif; font-weight: 900;
+  -webkit-text-stroke: 3px currentColor; color: transparent !important;
+}
+
+.canvas.note-header {
+  width: 1280px; height: 670px;
+  background: #f5f5f0; color: #0a0a0a;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+}
+.canvas.note-header .logo { font-size: 200px; color: #0a0a0a; }
+.canvas.note-header .tagline { font-size: 22px; color: #0a0a0a; letter-spacing: 0.08em; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<div class="info">
+<h2>使い方</h2>
+<p>このページをブラウザで開いて、各キャンバスを<strong>スクリーンショット（またはブラウザの範囲スクショ機能）</strong>で切り取って使ってください。各キャンバスは実寸ピクセルで作られているので、100%表示の状態でスクショすれば、そのままSNS素材として使えます。</p>
+<ul style="margin-top: 12px;">
+<li>X ヘッダー: 1500×500</li>
+<li>Instagram 投稿: 1080×1080</li>
+<li>SNS アイコン: 400×400（2パターン）</li>
+<li>note ヘッダー: 1280×670</li>
+</ul>
+<p style="margin-top: 12px; color: #888; font-size: 12px;">※ Macの場合: Command+Shift+4 で範囲選択してスクショ。<br>※ Chromeの場合: 開発者ツール → Ctrl+Shift+P → "Capture node screenshot" で要素単位で書き出し可能。</p>
+</div>
+
+<div class="row">
+<div class="size-label">X (Twitter) ヘッダー — 1500 × 500px</div>
+<div class="canvas x-header">
+<div class="logo">
+<span class="c base">C</span>
+<span class="c bug-a">A</span>
+<span class="c base">R</span>
+<span class="c bug-e-low">e</span>
+<span class="c base">E</span>
+<span class="c base">R</span>
+<span class="gap"></span>
+<span class="c bug-e-block">E</span>
+<span class="c base">D</span>
+<span class="c base">I</span>
+<span class="c base">T</span>
+</div>
+</div>
+<p class="size-meta">ダークベース。Xのプロフィール画面に配置されるヘッダー画像です。</p>
+</div>
+
+<div class="row">
+<div class="size-label">Instagram 投稿 / 立ち上げ告知 — 1080 × 1080px</div>
+<div class="canvas ig-post">
+<div class="logo">
+<span class="c base">C</span>
+<span class="c bug-a">A</span>
+<span class="c base">R</span>
+<span class="c bug-e-low">e</span>
+<span class="c base">E</span>
+<span class="c base">R</span>
+<span class="gap"></span>
+<span class="c bug-e-block">E</span>
+<span class="c base">D</span>
+<span class="c base">I</span>
+<span class="c base">T</span>
+</div>
+<div class="tagline">EDITING YOUR CAREER</div>
+</div>
+<p class="size-meta">Instagramフィード投稿用。立ち上げ告知にそのまま使える。</p>
+</div>
+
+<div class="row">
+<div class="size-label">SNS アイコン（ダーク版）— 400 × 400px</div>
+<div class="canvas avatar">
+<div class="mark">
+<span class="base">C</span>
+<span class="slash">/</span>
+<span class="e-block">E</span>
+</div>
+</div>
+<p class="size-meta">X, Instagram, note の丸アイコン用。"CAREER EDIT" の頭文字 C と E を組み合わせたマーク。</p>
+</div>
+
+<div class="row">
+<div class="size-label">SNS アイコン（ライト版）— 400 × 400px</div>
+<div class="canvas avatar-light">
+<div class="mark">
+<span class="base">C</span>
+<span class="slash">/</span>
+<span class="e-block">E</span>
+</div>
+</div>
+<p class="size-meta">白背景版。好みで選択。</p>
+</div>
+
+<div class="row">
+<div class="size-label">note ヘッダー — 1280 × 670px</div>
+<div class="canvas note-header">
+<div class="logo">
+<span class="c base">C</span>
+<span class="c bug-a">A</span>
+<span class="c base">R</span>
+<span class="c bug-e-low">e</span>
+<span class="c base">E</span>
+<span class="c base">R</span>
+<span class="gap"></span>
+<span class="c bug-e-block">E</span>
+<span class="c base">D</span>
+<span class="c base">I</span>
+<span class="c base">T</span>
+</div>
+<div class="tagline">キャリアは、編集できる。</div>
+</div>
+<p class="size-meta">noteのプロフィールヘッダー用。ライトベース。</p>
+</div>
+
+</div>
+
+</body>
+</html>
